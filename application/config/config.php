@@ -35,6 +35,8 @@ $config['base_url'] = 'http://localhost/webcafe/';
 | variable so that it is blank.
 |
 */
+$config['modules_locations'] = array(APPPATH.'modules/' => '../modules/',);
+
 $config['index_page'] = '';
 
 /*
